@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rare Car Spotting</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Header Section -->
+<header>
+  <h1> Car Spotting</h1>
+  <p>Share your rare car discoveries with the world!</p>
+</header>
+
+<!-- Upload Form -->
+<section id="upload-section">
+  <h2>Upload Your Car Spot</h2>
+  <form id="upload-form" enctype="multipart/form-data">
+    <input type="file" id="car-image" name="car-image" accept="image/*" required>
+    <input type="text" id="car-description" name="car-description" placeholder="Description of the car..." required>
+    <button type="submit">Upload</button>
+  </form>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery">
+  <h2>Recent Car Spots</h2>
+  <div class="gallery-grid">
+    <!-- Photos will be displayed here -->
+  </div>
+</section>
+
+<script src="scripts.js"></script>
+</body>
+</html>
